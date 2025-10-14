@@ -7,3 +7,4 @@ setting `--cfg tokio_unstable` which is required to compile the test crate insid
 - `cargo check` at workspace level works.
 - `cargo check --manifest-path <path>` works so long as we're inside the parent directory
   of the workspace.
+- `cargo doc` behaves the same way.

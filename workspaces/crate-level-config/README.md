@@ -11,4 +11,4 @@ in method bodies, and `--cfg tokio_unstable` in this crate is only required insi
 - `cargo check` at workspace level *does not work*.
 - `cargo check --manifest-path <path>` only works from inside the `test-pkg` directory,
   even if pointing to the workspace-level `Cargo.toml` file.
-- `cargo doc` passes from anywhere, because rustdoc largely ignores type errors in method bodies.
+- `cargo doc` behaves the same way.
